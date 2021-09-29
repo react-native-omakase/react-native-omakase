@@ -1,6 +1,22 @@
 {
+  "command": {
+    "publish": {
+      "allowBranch": "main",
+      "conventionalCommits": true,
+      "createRelease": "github",
+      "message": "chore: publish",
+      "ignoreChanges": [
+        "**/__fixtures__/**",
+        "**/__tests__/**",
+        "**/*.md",
+        "**/example/**"
+      ]
+    }
+  }
+  "npmClient": "yarn",
   "packages": [
+    "example",
     "packages/*"
   ],
-  "version": "0.0.0"
+  "version": "independent"
 }
