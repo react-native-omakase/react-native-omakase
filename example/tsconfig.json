@@ -1,6 +1,9 @@
 {
-  "extends": "expo/tsconfig.base",
+  "extends": "../tsconfig",
+  "references": [
+    { "path": "../packages/core" },
+  ],
   "compilerOptions": {
-    "strict": true
+    // Avoid expo-cli auto-generating a tsconfig
   }
 }
