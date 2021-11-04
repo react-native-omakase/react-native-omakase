@@ -12,11 +12,12 @@
         "**/example/**"
       ]
     }
-  }
+  },
   "npmClient": "yarn",
   "packages": [
     "example",
     "packages/*"
   ],
+  "useWorkspaces": true,
   "version": "independent"
 }

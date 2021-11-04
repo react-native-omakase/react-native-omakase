@@ -2,6 +2,22 @@
   "name": "react-native-omakase",
   "private": true,
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "eslint": "^7.12.0",
+    "jest": "^26.6.1",
+    "lerna": "^4.0.0",
+    "typescript": "^4.0.3"
+  },
+  "scripts": {
+    "example": "yarn --cwd example"
+  },
+  "resolutions": {
+    "react": "~16.13.1",
+    "react-native": "~0.63.2"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "example"
+    ]
   }
 }
