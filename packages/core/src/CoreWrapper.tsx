@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 const CoreWrapper: React.FC<Props> = ({ children }) => {
@@ -17,6 +17,6 @@ export default CoreWrapper;
 
 const styles = StyleSheet.create({
   wrapper: {
-    backgroundColor: '#f00'
+
   }
-})
+});
