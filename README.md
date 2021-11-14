@@ -21,3 +21,7 @@
 
 - @react-native-omakase/hooks
 - @react-native-omakase/helpers
+
+
+<CoreWrapper themes={[{}, {}, {}]} darkTheme={{}}>
+<CoreWrapper>
