@@ -1,5 +1,6 @@
 {
   "name": "react-native-omakase",
+  "version": "0.0.1",
   "private": true,
   "devDependencies": {
     "eslint": "^7.12.0",
